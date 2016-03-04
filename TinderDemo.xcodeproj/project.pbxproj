@@ -16,6 +16,7 @@
 		84CFC4D61C87E63900781304 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4D51C87E63900781304 /* DraggableView.swift */; };
 		84CFC4D91C87FC2F00781304 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4D71C87FC2F00781304 /* ProfileViewController.swift */; };
 		84CFC4DA1C87FC2F00781304 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4D81C87FC2F00781304 /* ProfileViewController.xib */; };
+		84CFC4FA1C8A090700781304 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4F91C8A090700781304 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		84CFC4D51C87E63900781304 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
 		84CFC4D71C87FC2F00781304 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		84CFC4D81C87FC2F00781304 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		84CFC4F91C8A090700781304 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		84CFC4B51C87E23C00781304 = {
 			isa = PBXGroup;
 			children = (
+				84CFC4F91C8A090700781304 /* .gitignore */,
 				84CFC4C01C87E23C00781304 /* TinderDemo */,
 				84CFC4BF1C87E23C00781304 /* Products */,
 			);
@@ -138,6 +141,7 @@
 				84CFC4CC1C87E23C00781304 /* LaunchScreen.storyboard in Resources */,
 				84CFC4C91C87E23C00781304 /* Assets.xcassets in Resources */,
 				84CFC4DA1C87FC2F00781304 /* ProfileViewController.xib in Resources */,
+				84CFC4FA1C8A090700781304 /* .gitignore in Resources */,
 				84CFC4C71C87E23C00781304 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				84CFC4D21C87E23C00781304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
