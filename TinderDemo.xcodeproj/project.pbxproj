@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		84CFC4C21C87E23C00781304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4C11C87E23C00781304 /* AppDelegate.swift */; };
-		84CFC4C41C87E23C00781304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4C31C87E23C00781304 /* ViewController.swift */; };
+		84CFC4C41C87E23C00781304 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4C31C87E23C00781304 /* CardsViewController.swift */; };
 		84CFC4C71C87E23C00781304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4C51C87E23C00781304 /* Main.storyboard */; };
 		84CFC4C91C87E23C00781304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4C81C87E23C00781304 /* Assets.xcassets */; };
 		84CFC4CC1C87E23C00781304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4CA1C87E23C00781304 /* LaunchScreen.storyboard */; };
+		84CFC4D41C87E5AC00781304 /* DraggableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4D31C87E5AC00781304 /* DraggableView.xib */; };
+		84CFC4D61C87E63900781304 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4D51C87E63900781304 /* DraggableView.swift */; };
+		84CFC4D91C87FC2F00781304 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CFC4D71C87FC2F00781304 /* ProfileViewController.swift */; };
+		84CFC4DA1C87FC2F00781304 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84CFC4D81C87FC2F00781304 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84CFC4BE1C87E23C00781304 /* TinderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CFC4C11C87E23C00781304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84CFC4C31C87E23C00781304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CFC4C31C87E23C00781304 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		84CFC4C61C87E23C00781304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CFC4C81C87E23C00781304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84CFC4CB1C87E23C00781304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84CFC4CD1C87E23C00781304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CFC4D31C87E5AC00781304 /* DraggableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableView.xib; sourceTree = "<group>"; };
+		84CFC4D51C87E63900781304 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		84CFC4D71C87FC2F00781304 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		84CFC4D81C87FC2F00781304 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				84CFC4C11C87E23C00781304 /* AppDelegate.swift */,
-				84CFC4C31C87E23C00781304 /* ViewController.swift */,
+				84CFC4C31C87E23C00781304 /* CardsViewController.swift */,
 				84CFC4C51C87E23C00781304 /* Main.storyboard */,
 				84CFC4C81C87E23C00781304 /* Assets.xcassets */,
 				84CFC4CA1C87E23C00781304 /* LaunchScreen.storyboard */,
 				84CFC4CD1C87E23C00781304 /* Info.plist */,
+				84CFC4D31C87E5AC00781304 /* DraggableView.xib */,
+				84CFC4D51C87E63900781304 /* DraggableView.swift */,
+				84CFC4D71C87FC2F00781304 /* ProfileViewController.swift */,
+				84CFC4D81C87FC2F00781304 /* ProfileViewController.xib */,
 			);
 			path = TinderDemo;
 			sourceTree = "<group>";
@@ -122,8 +134,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CFC4D41C87E5AC00781304 /* DraggableView.xib in Resources */,
 				84CFC4CC1C87E23C00781304 /* LaunchScreen.storyboard in Resources */,
 				84CFC4C91C87E23C00781304 /* Assets.xcassets in Resources */,
+				84CFC4DA1C87FC2F00781304 /* ProfileViewController.xib in Resources */,
 				84CFC4C71C87E23C00781304 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CFC4C41C87E23C00781304 /* ViewController.swift in Sources */,
+				84CFC4C41C87E23C00781304 /* CardsViewController.swift in Sources */,
 				84CFC4C21C87E23C00781304 /* AppDelegate.swift in Sources */,
+				84CFC4D91C87FC2F00781304 /* ProfileViewController.swift in Sources */,
+				84CFC4D61C87E63900781304 /* DraggableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
